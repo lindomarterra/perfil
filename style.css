@@ -114,17 +114,19 @@ strong{
     font-size: 1.3rem;    
     font-family: var(--font-03);
 }
-
-.aside-photo-background{
-  max-height: 80vh;
-  opacity: 90%;
+aside{
+  height: 500px;
+}
+.background-form{
+  background-image: url(img/formulario-small.jpeg);
+  background-size: 100% 100% ;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 70%;
+  height: 100%;
 }
 
-.aside-form{
-  min-width: 280px;
-  width: 75%;
-  max-height: 80%;
-}
+
 
 
 
@@ -161,3 +163,9 @@ strong{
   text-decoration: underline;
   opacity: 75%;
 }
+
+
+
+
+
+
