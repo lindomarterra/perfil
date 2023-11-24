@@ -30,6 +30,8 @@
 .background{
   background-color: #ebebed;
 }
+
+
 .links-pages{
   cursor: pointer;
   font-size: 1.8rem;
@@ -92,10 +94,9 @@ strong{
 
 
 .title-sobre{
-  background-image: linear-gradient(to right, #a4be7cb2, #a4be7cb2, transparent) ;
-  color: wheat;
+  color: var(--color-01);
   font-family: var(--font-03);
-  text-shadow: 2px 2px 2px #222222;
+  text-shadow: 1px 1px 1px #222222ce;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -103,14 +104,26 @@ strong{
 .photo-sobre{
     width: 100%;
     height: 100%;
-    opacity: 75%;
+    opacity: 80%;
 }
+
 .text-sobre{
-    background-color: #a4be7cb2;
-    color: #2222229c;
-    text-shadow: 1px 1px 1px #2222224f;
-    font-size: 1.2rem;    
-    font-family: var(--font-04);
+    background-color: whitesmoke;
+    color: #2222225d;
+    text-shadow: 1px 1px 1px #2222222f;
+    font-size: 1.3rem;    
+    font-family: var(--font-03);
+}
+
+.aside-photo-background{
+  max-height: 80vh;
+  opacity: 90%;
+}
+
+.aside-form{
+  min-width: 280px;
+  width: 75%;
+  max-height: 80%;
 }
 
 
