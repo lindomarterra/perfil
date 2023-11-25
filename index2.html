@@ -18,7 +18,7 @@
 
   
 </head>
-<body class="background container-md " >
+<body class="background container-md position-relative  " >
 
     <header class="mt-3">
         <nav class='text-center' >
@@ -30,26 +30,30 @@
     
     <hr/>
 
-    <main class="main-sobre" >
+    <main class="p-2 " >
         
-        <h4 class="title-sobre" > Sobre nós... </h4>
+        <h4 class="title-sobre ps-0" > Sobre nós... </h4>
 
-        <div class="div-sobre row">
+        <div class="div-sobre row mb-2">
 
-            <img src="img/rose-sobre.jpeg" alt="img" class="photo-sobre col-md-5 p-1 p-md-0" >   
+            <div class="col-lg-5 p-0 shadow-lg">
+                <img src="img/rose-sobre.jpeg" alt="img" class="w-100 h-100" > 
+            </div>  
 
-            <div class="text-sobre col-md-7 shadow-lg d-flex align-items-center justify-content-center p-4">
+            <div class="text-sobre col-lg-7 shadow-lg d-flex align-items-center justify-content-center p-4 ">
                 <p>
                     Meu nome é Rose, sou cozinheira profissional, especializada em cozinha vegetariana estrita. Já trabalhei em diversos restaurantes, eventos, festivais e normalmente atuo ajudando ou preparando o café da manhã dos hóspedes, além de já ter experiências em limpeza e organização de hostel e pousadas, como camareira , na lavanderia, com jardinagem e agrofloresta, cultivo de cogumelos, e até como babá. Mas meu foco é mesmo a cozinha e trabalhos manuais, mas sempre aberta a aprender novas habilidades e disposta a ajudar no que for preciso.
                 </p>
             </div>
         </div>
 
-        <div class="div-sobre row">
+        <div class="div-sobre row mb-2">
 
-            <img src="img/terra-sobre.jpeg" alt="img" class="photo-sobre col-md-5 p-1 p-md-0" >   
+            <div class="col-lg-5 p-0 shadow-lg">
+                <img src="img/terra-sobre.jpeg" alt="img" class="h-100 w-100" >  
+            </div> 
 
-            <div class="text-sobre col-md-7 shadow-lg d-flex align-items-center justify-content-center p-4">
+            <div class="text-sobre col-lg-7 shadow-lg d-flex align-items-center justify-content-center p-4">
                 <p>
                     Olá! Meu nome é Terra. Apartir de 2018 minha esposa e eu decidimos ter uma vida nômade passando por algumas cidades e lugares tracando ideias e experiências.  Atualmente fizemos trocas de mão de obra por hospedagem e neste periodo adquiri um pouco de experiência no ramo de turismo em geral.
                     Posso contribuir com trabalhos como recepção, auxiliar de cozinha, limpesa e organização de quartos. Também posso contrubuir com pequenos reparos, pinturas e etc.. 
@@ -59,51 +63,56 @@
 
         </div>
 
-
-
-
-
-
-        <aside class="mb-5 pb-5 w-100">
-
-            <h4 class="title-sobre" > Entre em contato... </h4>
-
-            <div class="background-form py-3 d-flex justify-content-center align-items-center">
-
-                <form action="https://formsubmit.co/terra.lindomar@gmail.com" method="POST" 
-                    class="aside-form w-75 opacity-50 " >
-
-                    <div class="form-floating mb-3">
-                      <input style="font-style: italic;" type="text" class="form-control" id="name" name="nome"  placeholder=" " required>
-                      <label for="name" class="fw-bolder"> <span>Nome:</span> </label>
-                    </div>
-
-                    <div class="form-floating mb-3">
-                        <input style="font-style: italic;" type="email" class="form-control" id="email"  name="email" placeholder=" " required>
-                        <label for="email" class="fw-bolder"> <span>Email:</span> </label>
-                    </div>
-
-                    <div class="form-floating mb-3">
-                      <textarea name="mensagem" id="mensagem" placeholder=" " required class="form-control"
-                      style="height: 150px; font-style: italic; resize: vertical;"
-                      ></textarea>
-                      <label for="mensagem"class="fw-bolder"> <span> Mensagem: </span> </label>
-                  </div>
-
-                    <input type="hidden" name="_next" value="https://lindomarterra.github.io/restaurante/index(confirmcontact).html">
-                    <button type="submit" class="btn btn-outline-light bg-light text-black  btnEnviar w-100" > 
-                        <span class="fw-bolder"> Enviar </span> 
-                    </button>
-                </form>
-
-            </div>
-    </aside>
     </main>
 
 
 
+    <aside class="my-3 pb-5 ">
 
-    <hr/>
+        <h4 class="title-sobre" > Deixe o seu Comentario... </h4>
+
+        <div class="background-form py-3 d-flex justify-content-center align-items-center shadow-lg">
+
+            <form action="https://formsubmit.co/terra.lindomar@gmail.com" method="POST" 
+                class="w-75 opacity-75" >
+
+                <div class="form-floating mb-3">
+                  <input style="font-style: italic;" type="text" class="form-control" id="name" name="nome"  placeholder=" " required>
+                  <label for="name" class="fw-bolder"> <span>Nome:</span> </label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input style="font-style: italic;" type="email" class="form-control" id="email"  name="email" placeholder=" " required>
+                    <label for="email" class="fw-bolder"> <span>Email:</span> </label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <textarea name="mensagem" id="mensagem" placeholder=" " required class="form-control"
+                  style="height: 150px; font-style: italic; resize: vertical;"
+                  ></textarea>
+                  <label for="mensagem"class="fw-bolder"> <span> Mensagem: </span> </label>
+              </div>
+
+                <input type="hidden" name="_next" value="https://lindomarterra.github.io/restaurante/index(confirmcontact).html">
+                <button type="submit" class="btn btn-outline-light bg-light text-black  btnEnviar w-100" > 
+                    <span class="fw-bolder"> Enviar </span> 
+                </button>
+            </form>
+
+        </div>
+    </aside>
+
+    <section>
+        <a style="width:40px; height:40px;" href="https://web.whatsapp.com/send?phone=5551996944233" target="_blank"  
+        class="position-fixed bottom-0 bg-success text-white rounded-5 m-2 d-flex justify-content-center align-items-center"  >
+            <i style="font-size: 30px;"  class= "bi bi-whatsapp"> </i>
+        </a>
+    </section>
+    
+
+
+
+    <hr class="mt-5"/>
     <footer class="text-center" >
         
         <p class='nos-siga'> Também nos sigam! </p>
