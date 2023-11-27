@@ -192,6 +192,11 @@ aside{
     display: flex;
 } 
 
+.text-obrigado{
+  font-family: var(--font-07);
+  color: #222222b9;
+}
+
 
 
 
