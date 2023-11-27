@@ -142,15 +142,13 @@ aside{
 
 
 
-
 .div-anfitriao:hover{box-shadow: 5px 10px 5px #22222228;}
 
 .photo-effect-anfitriao{
    cursor: pointer;
 }
 
-.photo-effect-anfitriao{ transition: all 500ms linear; }
-.photo-effect-anfitriao:hover{ transform: scale(1.2);}
+
 
 .coment-anfitriao{
   font-style: italic;
@@ -170,27 +168,16 @@ aside{
 }
 
 
-
-
-
-
-
-
-
-
-.text-photo-hover{
+/* experiencia */
+.text-photo{
   font-style: italic;
   font-family: var(--font-07);
   font-size: 1.4rem;
   color: wheat;
-  display: none;
-  align-items: center;
-  justify-content: center;
 }
 
-.div-experience-hover:hover .text-photo-hover {
-    display: flex;
-} 
+
+
 
 .text-obrigado{
   font-family: var(--font-07);
