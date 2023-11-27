@@ -174,3 +174,24 @@ aside{
 
 
 
+
+
+
+
+.text-photo-hover{
+  font-style: italic;
+  font-family: var(--font-07);
+  font-size: 1.4rem;
+  color: wheat;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-experience-hover:hover .text-photo-hover {
+    display: flex;
+} 
+
+
+
+
