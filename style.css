@@ -198,3 +198,7 @@ aside{
   height: 50px;
   opacity: 90%;
 }
+
+
+.photo-effect{transition: all 500ms linear;}
+.div-experience-hover:hover .photo-effect{ transform: scale(1.2); }
