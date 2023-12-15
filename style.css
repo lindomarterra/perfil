@@ -202,3 +202,13 @@ aside{
 
 .photo-effect{transition: all 500ms linear;}
 .div-experience-hover:hover .photo-effect{ transform: scale(1.2); }
+
+
+.soul-rebel-link{
+  font-weight: bolder;
+  text-decoration: none;
+  color: #222222a9;
+  transition: all 0.8s linear;
+}
+
+.soul-rebel-link:hover{text-decoration: underline; }
